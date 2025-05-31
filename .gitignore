@@ -1,0 +1,23 @@
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore SQLite DBs (if you use sqlite)
+*.sqlite3
+
+# Django stuff:
+__pycache__/
+*.pyc
+*.log
+db.sqlite3
+
+# Ignore static and media files
+/static/
+/media/
+
+# VSCode
+.vscode/
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
