@@ -1,9 +1,24 @@
-body{
+/* body{
     background-color:white;
+    color:black;
     text-align:center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+} */
+
+/* button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size:16px;
 }
 
+ 
 h1{
     color:red;
 }
+
+body.dark-theme {
+    background-color: #121212;
+    color:#ffffff;
+} */
