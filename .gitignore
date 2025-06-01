@@ -1,23 +1,34 @@
-# Ignore virtual environments
-venv/
-.env
+# Python bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Ignore SQLite DBs (if you use sqlite)
+# Django SQLite DB (skip this if you’re using MySQL only)
 *.sqlite3
 
-# Django stuff:
-__pycache__/
-*.pyc
-*.log
-db.sqlite3
+# Django migration cache
+*/migrations/__pycache__/
+*/migrations/*.pyc
 
-# Ignore static and media files
-/static/
-/media/
+# Virtual environments
+venv/
+ENV/
+env/
 
-# VSCode
+# Environment variables
+.env
+
+# VS Code settings
+
 .vscode/
 
-# Mac/Windows system files
+# Logs
+*.log
+
+# Static/media (optional)
+staticfiles/
+media/
+
+# OS files
 .DS_Store
 Thumbs.db
